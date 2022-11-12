@@ -1,0 +1,195 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 40vh;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+.child {
+  width: 40%;
+  height: 100%;
+
+
+}
+
+.child img {
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+
+.chil {
+  width: 55%;
+  height: 100%;
+  align-items: center;
+
+
+}
+
+.chil ul {
+  display: inline;
+  list-style: none;
+
+
+}
+
+.chil ul li {
+  display: inline-block;
+  margin: 0 20px;
+  color: white;
+  font-size: large;
+  text-align: left;
+  justify-content: center;
+  /* padding-top: 50px; */
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 320vh;
+  justify-content: space-around;
+
+
+
+}
+
+.child1 {
+  width: 23.5%;
+  height: 14.5%;
+ 
+  /* justify-content: space-between; */
+  justify-content: space-around;
+
+}
+
+.imgBox img {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+
+}
+
+.label {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: left;
+  justify-content: space-around;
+  justify-content: space-between;
+  font-size: small;
+  font-family: Arial;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 100vw;
+  height: 70vh;
+
+  background-color: rgb(50, 50, 50);
+  justify-content: space-between;
+}
+
+.child7 {
+  width: 40%;
+  height: 100%;
+}
+
+.logo img {
+  max-width: 60px;
+  max-height: 60px;
+  align-content: center;
+  background-color: transparent;
+  position: relative;
+  top: 4rem;
+  left: 8rem;
+}
+
+.child7 h4 {
+  align-items: center;
+  text-align: flex-end;
+  position: relative;
+  top: 15rem;
+  left: 5rem;
+  color: darkslategrey;
+}
+
+.child8 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.child9 {
+  width: 38%;
+  height: 100%;
+  text-align: left;
+  line-height: 1.5rem;
+
+
+
+}
+
+.child9 ul {
+  text-align: justify;
+  display: inline;
+  list-style: none;
+  font-size: 0.4cm;
+  position: relative;
+  top: 3rem;
+  color: aliceblue;
+  font-weight: lighter;
+
+}
+
+.child10 {
+  width: 33.2%;
+  height: 100%;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.child10 ul {
+  text-align: justify;
+  display: inline;
+  list-style: none;
+  font-size: 0.4cm;
+  position: relative;
+  top: 3rem;
+  color: aliceblue;
+  font-weight: lighter;
+}
